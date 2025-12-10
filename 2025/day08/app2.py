@@ -59,9 +59,6 @@ if __name__ == "__main__":
     dist_list = calculate_euclidean_distance(grid)
     junctions = create_junctions(dist_list, grid)
 
-    # top_junc = sorted([len(x) for x in junctions], reverse=True)
-    # print(top_junc)
-    # result = top_junc[0] * top_junc[1] * top_junc[2] 
     print(f"Result: {junctions}")
 
         
